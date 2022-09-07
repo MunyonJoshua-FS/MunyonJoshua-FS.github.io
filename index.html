@@ -1,568 +1,310 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
-<head>
+  <head>
 
-    <!--- basic page needs
-   ================================================== -->
     <meta charset="utf-8">
-    <title>Dazzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- mobile specific metas
-   ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume - Start Bootstrap Theme</title>
 
-    <!-- CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- script
-   ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-    <!-- favicons
-	================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-</head>
+  </head>
 
-<body id="top">
+  <body id="page-top">
 
-    <!-- header 
-   ================================================== -->
-   <header id="header" class="row">   
-
-   		<div class="header-logo">
-	        <a href="index.html">Dazzle</a>
-	    </div>
-
-	   	<nav id="header-nav-wrap">
-			<ul class="header-main-nav">
-				<li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-				<li><a class="smoothscroll"  href="#pricing" title="pricing">Pricing</a></li>
-				<li><a class="smoothscroll"  href="#testimonials" title="testimonials">Testimonials</a></li>
-				<li><a class="smoothscroll"  href="#download" title="download">Download</a></li>	
-			</ul>
-
-            <a href="#" title="sign-up" class="button button-primary cta">Sign Up</a>
-		</nav>
-
-		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
-   	
-   </header> <!-- /header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000>
-
-        <div class="overlay"></div>
-        <div class="home-content">        
-
-            <div class="row contents">                     
-                <div class="home-content-left">
-
-                    <h3 data-aos="fade-up">Welcome to Dazzle</h3>
-
-                    <h1 data-aos="fade-up">
-                        Creative Landing <br>
-                        Page to Showcase <br>
-                        Your Amazing App.
-                    </h1>
-
-                    <div class="buttons" data-aos="fade-up">
-                        <a href="#download" class="smoothscroll button stroke">
-                            <span class="icon-circle-down" aria-hidden="true"></span>
-                            Download App
-                        </a>
-                        <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a" data-lity class="button stroke">
-                            <span class="icon-play" aria-hidden="true"></span>
-                            Watch Video
-                        </a>
-                    </div>                                         
-
-                </div>
-
-                <div class="home-image-right">
-                    <img src="images/iphone-app-470.png" 
-                        srcset="images/iphone-app-470.png 1x, images/iphone-app-940.png 2x"  
-                        data-aos="fade-up">
-                </div>
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social-list">
-            <li>
-                <a href="#"><i class="fa fa-facebook-square"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
         </ul>
-        <!-- end home-social-list -->
-
-        <div class="home-scrolldown">
-            <a href="#about" class="scroll-icon smoothscroll">
-                <span>Scroll Down</span>
-                <i class="icon-arrow-right" aria-hidden="true"></i>
-            </a>
-        </div>
-
-    </section> <!-- end home -->  
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about">
-
-        <div class="row about-intro">
-
-            <div class="col-four">
-                <h1 class="intro-header" data-aos="fade-up">About Our App</h1>
-            </div>
-            <div class="col-eight">
-                <p class="lead" data-aos="fade-up">
-                    Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.
-                </p>
-            </div>                       
-            
-        </div>
-
-        <div class="row about-features">
-
-            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
-
-                <div class="bgrid feature" data-aos="fade-up">	
-
-                    <span class="icon"><i class="icon-window"></i></span>            
-
-                    <div class="service-content">	
-
-                        <h3>Fully Resposive</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>
-                        
-                    </div> 	         	 
-
-                    </div> <!-- /bgrid -->
-
-                    <div class="bgrid feature" data-aos="fade-up">	
-
-                        <span class="icon"><i class="icon-image"></i></span>                          
-
-                    <div class="service-content">	
-                        <h3>Retina Ready</h3>  
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>
-
-                        
-                    </div>	                          
-
-                </div> <!-- /bgrid -->
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-                    <div class="service-content">
-                        <h3>Stylish Design</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p> 
-                            
-                    </div> 	            	               
-
-                </div> <!-- /bgrid -->
-
-                    <div class="bgrid feature" data-aos="fade-up">
-
-                        <span class="icon"><i class="icon-file"></i></span>	              
-
-                    <div class="service-content">
-                        <h3>Clean Code</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p> 
-                        
-                    </div>                
-
-                    </div> <!-- /bgrid -->
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-sliders"></i></span>	            
-
-                    <div class="service-content">	
-                        <h3>Easy To Customize</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>                            
-                    </div>	               
-
-                </div> <!-- /bgrid -->
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-gift"></i></span>	   	           
-
-                    <div class="service-content">
-                        <h3>Free of Charge</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p> 
-                            
-                    </div>	               
-
-                </div> <!-- /bgrid -->
-
-            </div> <!-- end features-list -->
-
-        </div> <!-- end about-features -->
-
-        <div class="row about-how">
-          
-            <h1 class="intro-header" data-aos="fade-up">How The App Works?</h1>           
-
-            <div class="about-how-content" data-aos="fade-up">
-                <div class="about-how-steps block-1-2 block-tab-full group">
-
-                    <div class="bgrid step" data-item="1">
-                        <h3>Sign-Up</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                        </p> 
-                    </div>
-
-                    <div class="bgrid step" data-item="2">
-                        <h3>Upload</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                        </p> 
-                    </div>               
-               
-                    <div class="bgrid step" data-item="3">
-                        <h3>Create</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                        </p> 
-                    </div>
-
-                    <div class="bgrid step" data-item="4">
-                        <h3>Publish</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                        </p> 
-                    </div>  
-
-                </div>           
-           </div> <!-- end about-how-content -->
-
-        </div> <!-- end about-how -->
-
-        <div class="row about-bottom-image">
-
-           <img src="images/app-screens-1200.png" 
-                srcset="images/app-screens-600.png 600w, 
-                        images/app-screens-1200.png 1200w, 
-                        images/app-screens-2800.png 2800w" 
-                sizes="(max-width: 2800px) 100vw, 2800px"
-                alt="App Screenshots" data-aos="fade-up">
-
-        </div>  <!-- end about-bottom-image -->       
-        
-    </section> <!-- end about -->  
-   
-
-    <!-- pricing
-    ================================================== -->
-    <section id="pricing">
-        <div class="row pricing-content">
-
-            <div class="col-four pricing-intro">
-                <h1 class="intro-header" data-aos="fade-up">Our Pricing Options</h1>
-
-                <p data-aos="fade-up">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-                </p>
-            </div>
-
-            <div class="col-eight pricing-table">
-                <div class="row">
-
-                    <div class="col-six plan-wrap">
-                        <div class="plan-block" data-aos="fade-up"> 
-
-                            <div class="plan-top-part">
-                                <h3 class="plan-block-title">Lite Plan</h3>
-                                <p class="plan-block-price"><sup>$</sup>25</p>
-                                <p class="plan-block-per">Per Month</p>
-                            </div>
-
-                            <div class="plan-bottom-part">
-                                <ul class="plan-block-features">
-                                    <li><span>3GB</span> Storage</li>
-                                    <li><span>10GB</span> Bandwidth</li>	                  
-                                    <li><span>5</span> Databases</li>		                  
-                                    <li><span>30</span> Email Accounts</li>
-                                </ul>
-
-                                <a class="button button-primary large" href="">Get Started</a>
-                            </div>  
-                     
-                        </div>
-                    </div> <!-- end plan-wrap -->
-
-                    <div class="col-six plan-wrap">
-                        <div class="plan-block primary" data-aos="fade-up">
-
-                            <div class="plan-top-part">
-                                <h3 class="plan-block-title">Pro Plan</h3>
-                                <p class="plan-block-price"><sup>$</sup>50</p>
-                                <p class="plan-block-per">Per Month</p>
-                            </div>
-
-                            <div class="plan-bottom-part">
-                                <ul class="plan-block-features">
-                                    <li><span>5GB</span> Storage</li>
-                                    <li><span>20GB</span> Bandwidth</li>	                  
-                                    <li><span>15</span> Databases</li>		                  
-                                    <li><span>70</span> Email Accounts</li>
-                                </ul>
-
-                                <a class="button button-primary large" href="">Get Started</a>
-                            </div>
-
-                        </div>
-                    </div> <!-- end plan-wrap -->
-
-                </div>               
-            </div> <!-- end pricing-table -->
-
-        </div> <!-- end pricing-content -->
-    </section> <!-- end pricing -->
-
-
-    <!-- Testimonials Section
-    ================================================== -->
-    <section id="testimonials">
-
-        <div class="row">
-            <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">What They Say About Our App.</h1>
-            </div>   		
-        </div>   	
-
-        <div class="row owl-wrap">
-
-            <div id="testimonial-slider"  data-aos="fade-up">
-
-                <div class="slides owl-carousel">
-
-                    <div>
-                        <p>
-                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                        </p> 
-
-                        <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
-                                <div class="author-info">
-                                    Steve Jobs
-                                    <span class="position">CEO, Apple.</span>
-                                </div>
-                        </div>                 
-                    </div> 
-
-                    <div>
-                        <p>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.    
-                        </p>
-
-                        <div class="testimonial-author">
-                                <img src="images/avatars/user-03.jpg" alt="Author image">
-                                <div class="author-info">
-                                    John Doe
-                                    <span>CEO, ABC Corp.</span>
-                                </div>
-                        </div>                                         
-                    </div> 
-
-                </div> <!-- end slides -->
-
-            </div> <!-- end testimonial-slider -->         
-            
-        </div> <!-- end flex-container -->
-
-    </section> <!-- end testimonials -->
-    
-
-    <!-- download
-    ================================================== -->
-    <section id="download">
-
-        <div class="row">
-            <div class="col-full">
-                <h1 class="intro-header"  data-aos="fade-up">Download Our App Today!</h1>
-
-                <p class="lead" data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                </p>
-
-                <ul class="download-badges">
-                    <li><a href="#" title="" class="badge-appstore"  data-aos="fade-up">App Store</a></li>
-                    <li><a href="#" title="" class="badge-googleplay" data-aos="fade-up">Play Store</a></li>
-                </ul>
-
-            </div>
-        </div>
-
-    </section> <!-- end download -->    
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-
-        <div class="footer-main">
-            <div class="row">  
-
-                <div class="col-three md-1-3 tab-full footer-info">            
-
-                    <div class="footer-logo"></div>
-
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. 
-                    </p>
-
-                    <ul class="footer-social-list">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                    
-                    
-                </div> <!-- end footer-info -->
-
-                <div class="col-three md-1-3 tab-1-2 mob-full footer-contact">
-
-                    <h4>Contact</h4>
-
-                    <p>
-                    1600 Amphitheatre Parkway<br>
-                    Mountain View, CA <br>
-                    94043 US<br>		        
-                    </p>
-
-                    <p>
-                    someone@dazzlesite.com <br>
-                    Phone: (+63) 555 1212 <br>
-                    Fax: (+63) 555 0100    
-                    </p>                    
-
-                </div> <!-- end footer-contact -->  
-
-                <div class="col-two md-1-3 tab-1-2 mob-full footer-site-links">
-
-                    <h4>Site Links</h4>
-
-                    <ul class="list-links">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>	      		
-                            
-                </div> <!-- end footer-site-links --> 
-
-                <div class="col-four md-1-2 tab-full footer-subscribe">
-
-                    <h4>Our Newsletter</h4>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                    <div class="subscribe-form">
-                
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required=""> 
-                
-                            <input type="submit" name="subscribe" value="Send">
-                
-                            <label for="mc-email" class="subscribe-message"></label>
-                
-                        </form>
-
-                    </div>	      		
-                            
-                </div> <!-- end footer-subscribe -->         
-
-            </div> <!-- /row -->
-        </div> <!-- end footer-main -->
-
-
-      <div class="footer-bottom">
-
-      	<div class="row">
-
-      		<div class="col-twelve">
-	      		<div class="copyright">
-		         	<span>© Copyright Dazzle 2018.</span> 
-		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
-		         </div>
-
-		         <div id="go-top">
-		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
-		         </div>         
-	      	</div>
-
-      	</div> <!-- end footer-bottom -->     	
-
       </div>
+    </nav>
 
-    </footer>
+    <div class="container-fluid p-0">
 
-    <div id="preloader"> 
-    	<div id="loader"></div>
-    </div>  
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Clarence
+            <span class="text-primary">Taylor</span>
+          </h1>
+          <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+            <a href="mailto:name@email.com">name@email.com</a>
+          </div>
+          <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
 
-</body>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Senior Web Developer</h3>
+              <div class="subheading mb-3">Intelitec Solutions</div>
+              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2013 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Web Developer</h3>
+              <div class="subheading mb-3">Intelitec Solutions</div>
+              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2011 - March 2013</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Junior Web Designer</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2010 - December 2011</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Web Design Intern</h3>
+              <div class="subheading mb-3">Shout! Media Productions</div>
+              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2008 - June 2010</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of Colorado Boulder</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Web Development Track</div>
+              <p>GPA: 3.23</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2006 - May 2010</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">James Buchanan High School</h3>
+              <div class="subheading mb-3">Technology Magnet Program</div>
+              <p>GPA: 3.56</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2002 - May 2006</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-less"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-grunt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-gulp"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Mobile-First, Responsive Design</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Debugging</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cross Functional Teams</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Google Analytics Certified Developer</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - James Buchanan High School - Hackathon 2006</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
 
 </html>
