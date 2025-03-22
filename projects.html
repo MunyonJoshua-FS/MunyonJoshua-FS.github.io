@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe - Projects</title>
+    <meta name="description" content="Software Developer Portfolio Projects" />
+    <meta name="author" content="John Doe" />
+
+    <meta property="og:title" content="John Doe - Projects" />
+    <meta property="og:description" content="View my recent software development projects" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@johndoe" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">John Doe</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="#" class="active">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h2>My <span class="highlight">Projects</span></h2>
+        <p>A showcase of my recent development work</p>
+      </div>
+    </section>
+
+    <section class="projects-showcase">
+      <div class="container">
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="design">UI/UX</button>
+        </div>
+
+        <div class="featured-project">
+          <div class="featured-project-content">
+            <div class="featured-project-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Featured Project">
+            </div>
+            <div class="featured-project-info">
+              <span class="project-tag">Featured Project</span>
+              <h3>E-commerce Platform Redesign</h3>
+              <p>A complete rebuild and redesign of an e-commerce platform serving over 50,000 customers. The project focused on improving user experience, checkout flow, and mobile responsiveness.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>AWS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-icon">
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="project-link-icon">
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Finance Dashboard">
+            </div>
+            <div class="project-info">
+              <h3>Finance Dashboard</h3>
+              <p>An interactive dashboard for tracking expenses and visualizing financial data.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>D3.js</span>
+                <span>Firebase</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="mobile">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Fitness App">
+            </div>
+            <div class="project-info">
+              <h3>Fitness Tracker App</h3>
+              <p>A mobile application for tracking workouts, nutrition, and fitness goals.</p>
+              <div class="project-tags">
+                <span>React Native</span>
+                <span>Redux</span>
+                <span>Node.js</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="design">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1164&q=80" alt="UI Design System">
+            </div>
+            <div class="project-info">
+              <h3>UI Design System</h3>
+              <p>A comprehensive design system with reusable components for web applications.</p>
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>Storybook</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Blog Platform">
+            </div>
+            <div class="project-info">
+              <h3>Modern Blog Platform</h3>
+              <p>A fast, SEO-optimized blogging platform with a clean, minimalist design.</p>
+              <div class="project-tags">
+                <span>Next.js</span>
+                <span>GraphQL</span>
+                <span>Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="mobile">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Weather App">
+            </div>
+            <div class="project-info">
+              <h3>Weather Forecast App</h3>
+              <p>A weather application with beautiful visualizations and accurate forecasts.</p>
+              <div class="project-tags">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Weather API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="design">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="App Redesign">
+            </div>
+            <div class="project-info">
+              <h3>Banking App Redesign</h3>
+              <p>A complete UX/UI redesign of a banking application focusing on clarity and ease of use.</p>
+              <div class="project-tags">
+                <span>Sketch</span>
+                <span>Adobe XD</span>
+                <span>Prototyping</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn small">View Project</a>
+                <a href="#" class="project-link-text">Dribbble</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pagination">
+          <a href="#" class="pagination-btn disabled">&laquo; Previous</a>
+          <a href="#" class="pagination-number active">1</a>
+          <a href="#" class="pagination-number">2</a>
+          <a href="#" class="pagination-number">3</a>
+          <a href="#" class="pagination-btn">Next &raquo;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <h2>Interested in working together?</h2>
+        <p>I'm always open to discussing new projects and opportunities.</p>
+        <a href="index.html#contact" class="btn primary">Get In Touch</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 John Doe. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="#">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <a href="#" class="back-to-top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

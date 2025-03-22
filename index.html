@@ -1,61 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My New App</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <meta name="description" content="Software Developer Portfolio" />
+    <meta name="author" content="Developer" />
 
-    <!-- Header Section -->
+    <!-- <meta property="og:title" content="Developer Portfolio" />
+    <meta property="og:description" content="Software Developer Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@developer" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+     -->
+    <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+  </head>
+
+  <body>
     <header>
-        <div class="container">
-            <h1>Welcome to My New App</h1>
-            <p>Your next favorite mobile experience awaits.</p>
-            <a href="#download" class="cta-button">Download Now</a>
+      <div class="container">
+        <h1 class="logo">Joshua</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
     </header>
 
-    <!-- Features Section -->
-    <section id="features">
-        <div class="container">
-            <h2>Why Choose Our App?</h2>
-            <div class="feature">
-                <h3>Easy to Use</h3>
-                <p>Our app is designed with simplicity in mind. Get started in seconds!</p>
-            </div>
-            <div class="feature">
-                <h3>Fast Performance</h3>
-                <p>Enjoy lightning-fast speeds, no matter what you're doing.</p>
-            </div>
-            <div class="feature">
-                <h3>Always Updated</h3>
-                <p>We keep adding new features and improvements to make your experience better.</p>
-            </div>
+    <section class="hero" id="home">
+      <div class="container">
+        <h2>Hello, I'm <span class="highlight">Joshua</span></h2>
+        <h3>Software Developer</h3>
+        <p>I create elegant solutions to complex problems</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
+      </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download">
-        <div class="container">
-            <h2>Get Started Today</h2>
-            <p>Download our app now and begin your journey with us.</p>
-            <div class="download-buttons">
-                <button class="download-btn">Download on the App Store</button>
-                <button class="download-btn">Get it on Google Play</button>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Joshua">
+          </div>
+          <div class="about-text">
+            <p>I'm a passionate software developer with 5 years of experience building modern web applications. My approach combines technical excellence with thoughtful design to create products that users love.</p>
+            <p>I focus on crafting clean, maintainable code and delivering exceptional user experiences. When I'm not coding, you can find me hiking, playing basketball, or experimenting with new technologies.</p>
+            <div class="stats">
+              <div class="stat">
+                <span class="number">5+</span>
+                <span class="label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="number">50+</span>
+                <span class="label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="number">20+</span>
+                <span class="label">Happy Clients</span>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Footer Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>Express</li>
+              <li>REST APIs</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>VS Code</li>
+              <li>Docker</li>
+              <li>Figma</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="Project 1">
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Platform</h3>
+              <p>A full-featured online store with payment processing and inventory management.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="projects.html" class="btn small">View Project</a>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Project 2">
+            </div>
+            <div class="project-info">
+              <h3>Finance Dashboard</h3>
+              <p>An interactive dashboard for tracking expenses and visualizing financial data.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="projects.html" class="btn small">View Project</a>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="Project 3">
+            </div>
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>A productivity application for organizing tasks and projects efficiently.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="projects.html" class="btn small">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-40">
+          <a href="projects.html" class="btn primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p>I'm currently available for freelance work and full-time positions. If you're interested in working together, have a question, or just want to say hi, feel free to reach out!</p>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <span class="icon">✉️</span>
+                <a href="mailto:hello@johndoe.com">hello@johndoe.com</a>
+              </div>
+              <div class="contact-method">
+                <span class="icon">📱</span>
+                <a href="tel:+11234567890">+1 (123) 456-7890</a>
+              </div>
+              <div class="contact-method">
+                <span class="icon">📍</span>
+                <span>San Francisco, CA</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link">GitHub</a>
+              <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">Twitter</a>
+              <a href="#" class="social-link">Dribbble</a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <footer>
-        <div class="container">
-            <p>&copy; 2025 My New App, Inc. All rights reserved.</p>
+      <div class="container">
+        <p>&copy; 2025 Joshua. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+      </div>
     </footer>
-
-    <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
